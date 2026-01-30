@@ -19,13 +19,13 @@ public class LoginTest2 extends BaseTest{
 		LoginPage loginpage = new LoginPage(page);
 		HomePage homepage = new HomePage(page);
 		
-		test.info("Navigating to login page");
+		test.info("Navigating to Login page");
 		page.navigate("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
-		test.info("Adding username");
+		test.info("Adding Username");
 		loginpage.addUsername("Admin");
 		
-		test.info("Adding password");
+		test.info("Adding Password");
 		loginpage.addPassword("admin123");
 		
 		test.info("Clicking Login Button");
